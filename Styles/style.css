@@ -17,12 +17,13 @@ body {
 header {
     max-width: 800px;
     width: 100%;
-    padding: 0 25px;
+    padding: 0 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
 }
 
+/* Top-level heading styles */
 header h1 {
     color: var(--accent);
     font-size: 200%;
@@ -31,6 +32,7 @@ header h1 {
     font-family: var(--heading-font);
 }
 
+/* Header paragraph styles */
 header p {
     color: #fff;
     margin-bottom: 50px;
@@ -85,6 +87,7 @@ section {
     background: linear-gradient(180deg, #ed59a3, #d23282);
     font-size: 100%;
     white-space: pre-wrap;
+    user-select: all;
 }
 /* END code card styles */
 
